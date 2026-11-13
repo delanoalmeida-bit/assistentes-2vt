@@ -1,0 +1,301 @@
+{
+ "_fonte": "Cálculo 123781 ([processo Exemplo 07]), reproduzido para validação",
+ "data_liquidacao": "31/07/2026",
+ "contrato": {
+  "admissao": "03/04/2017",
+  "demissao": "05/06/2025",
+  "ajuizamento": "25/07/2025",
+  "maior_remuneracao": null,
+  "ultima_remuneracao": null,
+  "prescricao_quinquenal": true,
+  "prescricao_fgts": true,
+  "marco_prescricional": "25/07/2020",
+  "inicio_calculo": "25/07/2020",
+  "termino_calculo": "31/05/2023",
+  "aviso_dias": 54,
+  "projetar_aviso": true,
+  "carga_horaria": 220,
+  "comentarios": null
+ },
+ "ferias": [
+  {
+   "relativa": "2017/2018",
+   "aquisitivo": [
+    "03/04/2017",
+    "02/04/2018"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/03/2019",
+    "02/04/2019"
+   ]
+  },
+  {
+   "relativa": "2018/2019",
+   "aquisitivo": [
+    "03/04/2018",
+    "02/04/2019"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/03/2020",
+    "02/04/2020"
+   ]
+  },
+  {
+   "relativa": "2019/2020",
+   "aquisitivo": [
+    "03/04/2019",
+    "02/04/2020"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/03/2021",
+    "02/04/2021"
+   ]
+  },
+  {
+   "relativa": "2020/2021",
+   "aquisitivo": [
+    "03/04/2020",
+    "02/04/2021"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/03/2022",
+    "02/04/2022"
+   ]
+  },
+  {
+   "relativa": "2021/2022",
+   "aquisitivo": [
+    "03/04/2021",
+    "02/04/2022"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/03/2023",
+    "02/04/2023"
+   ]
+  },
+  {
+   "relativa": "2022/2023",
+   "aquisitivo": [
+    "03/04/2022",
+    "02/04/2023"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/03/2024",
+    "02/04/2024"
+   ]
+  },
+  {
+   "relativa": "2023/2024",
+   "aquisitivo": [
+    "03/04/2023",
+    "02/04/2024"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/03/2025",
+    "02/04/2025"
+   ]
+  },
+  {
+   "relativa": "2024/2025",
+   "aquisitivo": [
+    "03/04/2024",
+    "02/04/2025"
+   ],
+   "situacao": "INDENIZADAS"
+  }
+ ],
+ "historicos": {},
+ "verbas": [
+  {
+   "tipo": "VERBA_HISTORICO",
+   "nome": "ADICIONAL DE INSALUBRIDADE 20%",
+   "base_tabelada": "SALARIO_MINIMO",
+   "periodo": [
+    "25/07/2020",
+    "31/05/2023"
+   ],
+   "divisor": 1,
+   "multiplicador": 0.2,
+   "quantidade": 1,
+   "proporcionalizar_quantidade": false,
+   "proporcionalizar_base": true,
+   "excluir_faltas_justificadas": false,
+   "excluir_faltas_nao_justificadas": true,
+   "excluir_ferias_gozadas": true,
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "assunto_cnj": 1666
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "FERIAS",
+   "base": "ADICIONAL DE INSALUBRIDADE 20%",
+   "periodo": [
+    "25/07/2020",
+    "05/06/2025"
+   ],
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "periodos": [
+    [
+     "03/04/2019",
+     "02/04/2020",
+     12,
+     "04/03/2021",
+     "02/04/2021"
+    ],
+    [
+     "03/04/2020",
+     "02/04/2021",
+     12,
+     "04/03/2022",
+     "02/04/2022"
+    ],
+    [
+     "03/04/2021",
+     "02/04/2022",
+     12,
+     "04/03/2023",
+     "02/04/2023"
+    ],
+    [
+     "03/04/2022",
+     "02/04/2023",
+     12,
+     "04/03/2024",
+     "02/04/2024"
+    ],
+    [
+     "03/04/2023",
+     "02/04/2024",
+     12,
+     "04/03/2025",
+     "02/04/2025"
+    ],
+    [
+     "03/04/2024",
+     "02/04/2025",
+     12
+    ],
+    [
+     "03/04/2025",
+     "29/07/2025",
+     4
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "DECIMO",
+   "base": "ADICIONAL DE INSALUBRIDADE 20%",
+   "periodo": [
+    "25/07/2020",
+    "05/06/2025"
+   ],
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "20/12/2020",
+     12
+    ],
+    [
+     "20/12/2021",
+     12
+    ],
+    [
+     "20/12/2022",
+     12
+    ],
+    [
+     "20/12/2023",
+     12
+    ],
+    [
+     "20/12/2024",
+     12
+    ],
+    [
+     "05/06/2025",
+     7
+    ]
+   ]
+  }
+ ],
+ "multas": [],
+ "fgts": {
+  "destino": "PAGAR",
+  "multa": "QUARENTA_POR_CENTO",
+  "incidencia": "SOBRE_O_TOTAL_DEVIDO",
+  "excluir_aviso_da_multa": true,
+  "inicio": "25/07/2020",
+  "fim": "05/06/2025"
+ },
+ "inss": {
+  "devidos": [
+   "25/07/2020",
+   "05/06/2025"
+  ],
+  "pagos": [
+   "03/04/2017",
+   "05/06/2025"
+  ],
+  "empresa": 20,
+  "sat": 3
+ },
+ "correcao": {
+  "indice": "IPCAE",
+  "outro_indice": "IPCA",
+  "outro_a_partir": "30/08/2024",
+  "juros_pre_judicial": true,
+  "juros": "SEM_JUROS",
+  "combinacoes_juros": [
+   [
+    "TAXA_LEGAL",
+    "30/08/2024"
+   ]
+  ],
+  "combinacoes_indice": [
+   [
+    "IPCA",
+    "30/08/2024"
+   ]
+  ]
+ },
+ "honorarios": [
+  {
+   "credor": "CREDOR",
+   "doc": "03570805301",
+   "aliquota": 15,
+   "base": "BRUTO",
+   "devedor": "RECLAMADO",
+   "tipo": "ADVOCATICIOS",
+   "descricao": "HONORÁRIOS ADVOCATÍCIOS"
+  },
+  {
+   "credor": "CREDOR",
+   "doc": "84520728304",
+   "valor": 2000.0,
+   "devedor": "RECLAMADO",
+   "tipo": "PERICIAIS_ENGENHEIRO",
+   "descricao": "HONORÁRIOS PERICIAIS - ENGENHEIRO",
+   "vencimento": "29/07/2026",
+   "indice": "IPCA",
+   "juros_a_partir": "29/07/2026"
+  }
+ ],
+ "custas": {
+  "reclamado_conhecimento": "CALCULADA_2_POR_CENTO"
+ },
+ "seguro_desemprego": false
+}

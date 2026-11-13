@@ -1,0 +1,243 @@
+{
+ "_fonte": "Ficha de Liquidação [processo Exemplo 10], validada em 30/10/2026 e revista em 31/10/2026",
+ "contrato": {
+  "admissao": "18/11/2019",
+  "demissao": "10/10/2024",
+  "ajuizamento": "16/10/2025",
+  "maior_remuneracao": 1429.59,
+  "ultima_remuneracao": 1429.59,
+  "prescricao_quinquenal": true,
+  "prescricao_fgts": true,
+  "marco_prescricional": "16/10/2020",
+  "aviso_dias": 42,
+  "projetar_aviso": true,
+  "fim_projetado": "21/11/2024",
+  "carga_horaria": 220,
+  "comentarios": null
+ },
+ "ferias": [
+  {
+   "relativa": "2019/2020",
+   "aquisitivo": [
+    "18/11/2019",
+    "17/11/2020"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "01/07/2021",
+    "30/07/2021"
+   ]
+  },
+  {
+   "relativa": "2020/2021",
+   "aquisitivo": [
+    "18/11/2020",
+    "17/11/2021"
+   ],
+   "situacao": "INDENIZADAS"
+  },
+  {
+   "relativa": "2021/2022",
+   "aquisitivo": [
+    "18/11/2021",
+    "17/11/2022"
+   ],
+   "situacao": "INDENIZADAS"
+  },
+  {
+   "relativa": "2022/2023",
+   "aquisitivo": [
+    "18/11/2022",
+    "17/11/2023"
+   ],
+   "situacao": "INDENIZADAS"
+  }
+ ],
+ "historicos": {
+  "ultima_remuneracao": {
+   "valor": 1429.59,
+   "inicio": "11/2019",
+   "fim": "10/2024",
+   "fgts": false,
+   "inss": false
+  },
+  "SALARIOS BASE FGTS": {
+   "fgts": true,
+   "inss": false,
+   "proporcionalizar_fgts": false,
+   "faixas": [
+    [
+     "10/2020",
+     "12/2020",
+     1111.77
+    ],
+    [
+     "01/2021",
+     "12/2021",
+     1111.77
+    ],
+    [
+     "01/2022",
+     "12/2022",
+     1224.73
+    ],
+    [
+     "01/2023",
+     "04/2023",
+     1302.0
+    ],
+    [
+     "05/2023",
+     "12/2023",
+     1320.0
+    ],
+    [
+     "01/2024",
+     "04/2024",
+     1412.0
+    ],
+    [
+     "05/2024",
+     "09/2024",
+     1429.59
+    ],
+    [
+     "10/2024",
+     "10/2024",
+     476.53
+    ]
+   ],
+   "decimo_terceiro_nov_dez": {
+    "2020": 1111.77,
+    "2021": 1111.77,
+    "2022": 1224.73,
+    "2023": 1320.0
+   }
+  }
+ },
+ "verbas": [
+  {
+   "tipo": "AVISO_PREVIO",
+   "fgts": true,
+   "inss": false,
+   "irpf": false
+  },
+  {
+   "tipo": "FERIAS",
+   "periodos_indenizados": [
+    [
+     "18/11/2020",
+     "17/11/2021",
+     12
+    ],
+    [
+     "18/11/2021",
+     "17/11/2022",
+     12
+    ],
+    [
+     "18/11/2022",
+     "17/11/2023",
+     12
+    ],
+    [
+     "18/11/2023",
+     "21/11/2024",
+     12
+    ]
+   ]
+  },
+  {
+   "tipo": "MULTA_477"
+  },
+  {
+   "tipo": "SALARIO_RETIDO",
+   "periodo": [
+    "01/06/2024",
+    "30/09/2024"
+   ],
+   "fgts": false,
+   "base": "ULTIMA_REMUNERACAO"
+  },
+  {
+   "tipo": "SALDO_SALARIO",
+   "periodo": [
+    "01/10/2024",
+    "10/10/2024"
+   ],
+   "fgts": false,
+   "base": "ULTIMA_REMUNERACAO",
+   "proporcionalizar": true
+  },
+  {
+   "tipo": "DECIMO_TERCEIRO",
+   "periodo": [
+    "01/01/2024",
+    "10/10/2024"
+   ],
+   "avos": 11,
+   "base": "MAIOR_REMUNERACAO",
+   "fgts": true
+  }
+ ],
+ "multas": [
+  {
+   "descricao": "DANO MORAL",
+   "valor": 2000.0,
+   "vencimento": "28/08/2026",
+   "juros_a_partir": "28/08/2026"
+  }
+ ],
+ "fgts": {
+  "destino": "PAGAR",
+  "multa": "QUARENTA_POR_CENTO",
+  "incidencia": "SOBRE_O_TOTAL_DEVIDO",
+  "excluir_aviso_da_multa": false,
+  "inicio": "16/10/2020",
+  "fim": "10/10/2024"
+ },
+ "inss": {
+  "devidos": [
+   "16/10/2020",
+   "10/10/2024"
+  ],
+  "pagos": [
+   "18/11/2019",
+   "10/10/2024"
+  ],
+  "empresa": 20,
+  "sat": 3
+ },
+ "correcao": {
+  "indice": "IPCAE",
+  "outro_indice": "IPCA",
+  "outro_a_partir": "30/08/2024",
+  "juros_pre_judicial": true,
+  "juros": "SEM_JUROS",
+  "combinacoes_juros": [
+   [
+    "TAXA_LEGAL",
+    "30/08/2024"
+   ]
+  ],
+  "combinacoes_indice": [
+   [
+    "IPCA",
+    "30/08/2024"
+   ]
+  ]
+ },
+ "honorarios": [
+  {
+   "credor": "CREDOR",
+   "doc": "05664484322",
+   "aliquota": 15,
+   "base": "BRUTO_MENOS_CONTRIBUICAO_SOCIAL",
+   "devedor": "RECLAMADO"
+  }
+ ],
+ "custas": {
+  "reclamado_conhecimento": "CALCULADA_2_POR_CENTO"
+ },
+ "seguro_desemprego": false
+}

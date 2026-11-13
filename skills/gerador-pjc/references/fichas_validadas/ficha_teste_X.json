@@ -1,0 +1,269 @@
+{
+ "_fonte": "Cálculo fictício 128483 ([processo Exemplo 11]): periculosidade, adicional noturno, intervalo e FGTS a deduzir, com férias gozadas",
+ "data_liquidacao": "30/11/2026",
+ "contrato": {
+  "admissao": "17/11/2024",
+  "demissao": "03/03/2026",
+  "ajuizamento": "03/11/2026",
+  "maior_remuneracao": null,
+  "ultima_remuneracao": null,
+  "prescricao_quinquenal": false,
+  "prescricao_fgts": false,
+  "marco_prescricional": null,
+  "aviso_dias": 33,
+  "projetar_aviso": true,
+  "carga_horaria": 220,
+  "comentarios": null
+ },
+ "ferias": [
+  {
+   "relativa": "2024/2025",
+   "aquisitivo": [
+    "17/11/2024",
+    "16/11/2025"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "18/10/2025",
+    "16/11/2025"
+   ]
+  }
+ ],
+ "historicos": {
+  "SALÁRIO BASE": {
+   "fixa": true,
+   "fgts": true,
+   "proporcionalizar_fgts": true,
+   "inss": true,
+   "proporcionalizar_inss": true,
+   "faixas": [
+    [
+     "11/2024",
+     "03/2026",
+     3000.0
+    ]
+   ]
+  }
+ },
+ "verbas": [
+  {
+   "tipo": "VERBA_HISTORICO",
+   "nome": "ADICIONAL DE PERICULOSIDADE 30%",
+   "historico": "SALÁRIO BASE",
+   "periodo": [
+    "17/11/2024",
+    "03/03/2026"
+   ],
+   "divisor": 1,
+   "multiplicador": 0.3,
+   "quantidade": 1,
+   "proporcionalizar_quantidade": false,
+   "proporcionalizar_base": true,
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "assunto_cnj": 1681
+  },
+  {
+   "tipo": "HORAS_EXTRAS",
+   "nome": "ADICIONAL NOTURNO 20%",
+   "historico": "SALÁRIO BASE",
+   "quantidade_mensal": 1.5,
+   "multiplicador": 0.2,
+   "divisor": "CARGA_HORARIA",
+   "periodo": [
+    "17/11/2024",
+    "03/03/2026"
+   ],
+   "excluir_faltas_justificadas": true,
+   "excluir_faltas_nao_justificadas": true,
+   "excluir_ferias_gozadas": true,
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "assunto_cnj": 1663
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "AVISO",
+   "base": "ADICIONAL DE PERICULOSIDADE 30%",
+   "fgts": false,
+   "inss": false,
+   "irpf": false
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "AVISO",
+   "base": "ADICIONAL NOTURNO 20%",
+   "fgts": false,
+   "inss": false,
+   "irpf": false
+  },
+  {
+   "tipo": "HORAS_EXTRAS",
+   "nome": "INTERVALO INTRAJORNADA",
+   "historico": "SALÁRIO BASE",
+   "quantidade_mensal": 2,
+   "multiplicador": 1.5,
+   "divisor": "CARGA_HORARIA",
+   "periodo": [
+    "17/11/2024",
+    "03/03/2026"
+   ],
+   "excluir_faltas_justificadas": true,
+   "excluir_faltas_nao_justificadas": true,
+   "excluir_ferias_gozadas": true,
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "assunto_cnj": 2140
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "FERIAS",
+   "base": "ADICIONAL DE PERICULOSIDADE 30%",
+   "fgts": false,
+   "inss": true,
+   "irpf": true,
+   "periodos": [
+    [
+     "17/11/2024",
+     "16/11/2025",
+     12,
+     "18/10/2025",
+     "16/11/2025"
+    ],
+    [
+     "17/11/2025",
+     "05/04/2026",
+     5
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "FERIAS",
+   "base": "ADICIONAL NOTURNO 20%",
+   "fgts": false,
+   "inss": true,
+   "irpf": true,
+   "periodos": [
+    [
+     "17/11/2024",
+     "16/11/2025",
+     12,
+     "18/10/2025",
+     "16/11/2025"
+    ],
+    [
+     "17/11/2025",
+     "05/04/2026",
+     5
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "RSR",
+   "base": "ADICIONAL NOTURNO 20%",
+   "fgts": false,
+   "inss": true,
+   "irpf": true
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "DECIMO",
+   "base": "ADICIONAL DE PERICULOSIDADE 30%",
+   "fgts": false,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "20/12/2024",
+     1
+    ],
+    [
+     "20/12/2025",
+     12
+    ],
+    [
+     "03/03/2026",
+     3
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "DECIMO",
+   "base": "ADICIONAL NOTURNO 20%",
+   "fgts": false,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "20/12/2024",
+     1
+    ],
+    [
+     "20/12/2025",
+     12
+    ],
+    [
+     "03/03/2026",
+     3
+    ]
+   ]
+  }
+ ],
+ "multas": [],
+ "fgts": {
+  "destino": "DEPOSITAR",
+  "multa": null,
+  "incidencia": "SOBRE_O_TOTAL_DEVIDO",
+  "excluir_aviso_da_multa": true,
+  "inicio": "17/11/2024",
+  "fim": "03/03/2026",
+  "depositos": {
+   "11/2024": 240,
+   "12/2024": 240,
+   "01/2025": 240,
+   "02/2025": 240
+  }
+ },
+ "inss": {
+  "devidos": [
+   "17/11/2024",
+   "03/03/2026"
+  ],
+  "pagos": [
+   "17/11/2024",
+   "03/03/2026"
+  ],
+  "empresa": 20,
+  "sat": 3
+ },
+ "correcao": {
+  "indice": "IPCAE",
+  "outro_indice": "SEM_CORRECAO",
+  "outro_a_partir": "03/11/2026",
+  "juros_pre_judicial": true,
+  "juros": "TRD_SIMPLES",
+  "combinacoes_juros": [
+   [
+    "SELIC",
+    "03/11/2026"
+   ]
+  ],
+  "combinacoes_indice": [
+   [
+    "SEM_CORRECAO",
+    "03/11/2026"
+   ]
+  ]
+ },
+ "honorarios": [],
+ "custas": {
+  "reclamado_conhecimento": "CALCULADA_2_POR_CENTO"
+ },
+ "seguro_desemprego": false
+}

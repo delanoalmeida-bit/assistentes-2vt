@@ -1,0 +1,640 @@
+{
+ "_fonte": "Ficha de Liquidação [processo Exemplo 05], validada em 03/11/2026; cálculo final 128537 (R$ 145.937,62), conferido contra a ficha. Credores anonimizados.",
+ "data_liquidacao": "03/11/2026",
+ "contrato": {
+  "admissao": "25/06/2010",
+  "demissao": "02/10/2023",
+  "ajuizamento": "02/06/2022",
+  "maior_remuneracao": null,
+  "ultima_remuneracao": 2023.0,
+  "prescricao_quinquenal": true,
+  "prescricao_fgts": false,
+  "marco_prescricional": "02/06/2017",
+  "inicio_calculo": "02/06/2017",
+  "termino_calculo": "18/07/2022",
+  "aviso_dias": 33,
+  "projetar_aviso": false,
+  "carga_horaria": 220,
+  "comentarios": "Parâmetros da decisão de 21/09/2026 (ID bd52c60). Periculosidade 02/06/2017 a 01/02/2022. Reflexo em HE pagas informado mês a mês (base × 30% ÷ 220 × adicional × horas). Deduções do TRCT pago em 04/02/2022."
+ },
+ "ferias": [
+  {
+   "relativa": "2016/2017",
+   "aquisitivo": [
+    "25/06/2016",
+    "24/06/2017"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "01/01/2018",
+    "30/01/2018"
+   ]
+  },
+  {
+   "relativa": "2017/2018",
+   "aquisitivo": [
+    "25/06/2017",
+    "24/06/2018"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "01/01/2019",
+    "30/01/2019"
+   ]
+  },
+  {
+   "relativa": "2018/2019",
+   "aquisitivo": [
+    "25/06/2018",
+    "24/06/2019"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "02/09/2019",
+    "01/10/2019"
+   ]
+  },
+  {
+   "relativa": "2019/2020",
+   "aquisitivo": [
+    "25/06/2019",
+    "24/06/2020"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "01/07/2020",
+    "30/07/2020"
+   ]
+  },
+  {
+   "relativa": "2020/2021",
+   "aquisitivo": [
+    "25/06/2020",
+    "24/06/2021"
+   ],
+   "situacao": "GOZADAS",
+   "gozo": [
+    "04/07/2021",
+    "02/08/2021"
+   ]
+  },
+  {
+   "relativa": "2021/2022",
+   "aquisitivo": [
+    "25/06/2021",
+    "24/06/2022"
+   ],
+   "situacao": "INDENIZADAS"
+  }
+ ],
+ "historicos": {
+  "ultima_remuneracao": {
+   "valor": 2023.0,
+   "inicio": "02/2022",
+   "fim": "07/2022",
+   "fgts": false,
+   "inss": false
+  },
+  "SALÁRIO BASE": {
+   "fixa": true,
+   "fgts": false,
+   "inss": false,
+   "faixas": [
+    [
+     "06/2017",
+     "02/2018",
+     1659.0
+    ],
+    [
+     "03/2018",
+     "04/2019",
+     1690.0
+    ],
+    [
+     "05/2019",
+     "01/2020",
+     1758.0
+    ],
+    [
+     "02/2020",
+     "07/2021",
+     1803.0
+    ],
+    [
+     "08/2021",
+     "11/2021",
+     1890.0
+    ],
+    [
+     "12/2021",
+     "07/2022",
+     2023.0
+    ]
+   ]
+  }
+ },
+ "verbas": [
+  {
+   "tipo": "SALARIO_RETIDO",
+   "periodo": [
+    "01/02/2022",
+    "18/07/2022"
+   ],
+   "base": "ULTIMA_REMUNERACAO",
+   "fgts": true,
+   "inss": true,
+   "irpf": true
+  },
+  {
+   "tipo": "DECIMO_TERCEIRO",
+   "nome": "13º SALÁRIO DO AFASTAMENTO 6/12",
+   "periodo": [
+    "01/02/2022",
+    "18/07/2022"
+   ],
+   "avos": 6,
+   "base": "ULTIMA_REMUNERACAO",
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "18/07/2022",
+     6
+    ]
+   ]
+  },
+  {
+   "tipo": "VERBA_HISTORICO",
+   "nome": "FÉRIAS + 1/3 DO AFASTAMENTO 6/12",
+   "historico": "ÚLTIMA REMUNERAÇÃO",
+   "periodo": [
+    "18/07/2022",
+    "18/07/2022"
+   ],
+   "divisor": 12,
+   "multiplicador": 1.33333333,
+   "quantidade": 6,
+   "proporcionalizar_quantidade": false,
+   "proporcionalizar_base": false,
+   "excluir_faltas_justificadas": false,
+   "excluir_faltas_nao_justificadas": false,
+   "excluir_ferias_gozadas": false,
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "assunto_cnj": 2662
+  },
+  {
+   "tipo": "VERBA_HISTORICO",
+   "nome": "ADICIONAL DE PERICULOSIDADE 30%",
+   "historico": "SALÁRIO BASE",
+   "periodo": [
+    "02/06/2017",
+    "01/02/2022"
+   ],
+   "divisor": 1,
+   "multiplicador": 0.3,
+   "quantidade": 1,
+   "proporcionalizar_quantidade": false,
+   "proporcionalizar_base": true,
+   "excluir_faltas_justificadas": false,
+   "excluir_faltas_nao_justificadas": false,
+   "excluir_ferias_gozadas": true,
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "assunto_cnj": 1681
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "FERIAS",
+   "base": "ADICIONAL DE PERICULOSIDADE 30%",
+   "nome": "FÉRIAS GOZADAS + 1/3 SOBRE ADICIONAL DE PERICULOSIDADE 30%",
+   "periodo": [
+    "02/06/2017",
+    "01/02/2022"
+   ],
+   "fgts": true,
+   "inss": false,
+   "irpf": true,
+   "periodos": [
+    [
+     "25/06/2016",
+     "24/06/2017",
+     12,
+     "01/01/2018",
+     "30/01/2018"
+    ],
+    [
+     "25/06/2017",
+     "24/06/2018",
+     12,
+     "01/01/2019",
+     "30/01/2019"
+    ],
+    [
+     "25/06/2018",
+     "24/06/2019",
+     12,
+     "02/09/2019",
+     "01/10/2019"
+    ],
+    [
+     "25/06/2019",
+     "24/06/2020",
+     12,
+     "01/07/2020",
+     "30/07/2020"
+    ],
+    [
+     "25/06/2020",
+     "24/06/2021",
+     12,
+     "04/07/2021",
+     "02/08/2021"
+    ]
+   ]
+  },
+  {
+   "tipo": "VERBA_HISTORICO",
+   "nome": "FÉRIAS INDENIZ. 7/12 + 1/3 S/ PERICULOSIDADE",
+   "historico": "SALÁRIO BASE",
+   "periodo": [
+    "01/02/2022",
+    "01/02/2022"
+   ],
+   "divisor": 12,
+   "multiplicador": 0.4,
+   "quantidade": 7,
+   "proporcionalizar_quantidade": false,
+   "proporcionalizar_base": false,
+   "excluir_faltas_justificadas": false,
+   "excluir_faltas_nao_justificadas": false,
+   "excluir_ferias_gozadas": false,
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "assunto_cnj": 2662
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "DECIMO",
+   "base": "ADICIONAL DE PERICULOSIDADE 30%",
+   "periodo": [
+    "02/06/2017",
+    "01/02/2022"
+   ],
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "20/12/2017",
+     7
+    ],
+    [
+     "20/12/2018",
+     12
+    ],
+    [
+     "20/12/2019",
+     12
+    ],
+    [
+     "20/12/2020",
+     12
+    ],
+    [
+     "20/12/2021",
+     12
+    ],
+    [
+     "01/02/2022",
+     1
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "REFLEXO DA PERICULOSIDADE EM HE 50% PAGAS",
+   "pagamento": "MENSAL",
+   "fgts": true,
+   "inss": false,
+   "irpf": true,
+   "assunto_cnj": 1681,
+   "ocorrencias": [
+    [
+     "01/07/2017",
+     "31/07/2017",
+     0.51
+    ],
+    [
+     "01/09/2017",
+     "30/09/2017",
+     1.75
+    ],
+    [
+     "01/12/2017",
+     "31/12/2017",
+     5.66
+    ],
+    [
+     "01/03/2018",
+     "31/03/2018",
+     13.83
+    ],
+    [
+     "01/05/2018",
+     "31/05/2018",
+     6.86
+    ],
+    [
+     "01/07/2018",
+     "31/07/2018",
+     0.46
+    ],
+    [
+     "01/12/2018",
+     "31/12/2018",
+     11.64
+    ],
+    [
+     "01/02/2019",
+     "28/02/2019",
+     3.46
+    ],
+    [
+     "01/04/2019",
+     "30/04/2019",
+     2.02
+    ],
+    [
+     "01/05/2019",
+     "31/05/2019",
+     7.19
+    ],
+    [
+     "01/08/2019",
+     "31/08/2019",
+     3.6
+    ],
+    [
+     "01/10/2019",
+     "31/10/2019",
+     2.64
+    ],
+    [
+     "01/11/2019",
+     "30/11/2019",
+     0.6
+    ],
+    [
+     "01/12/2019",
+     "31/12/2019",
+     22.77
+    ],
+    [
+     "01/01/2020",
+     "31/01/2020",
+     11.99
+    ],
+    [
+     "01/02/2020",
+     "29/02/2020",
+     22.13
+    ],
+    [
+     "01/03/2020",
+     "31/03/2020",
+     14.75
+    ],
+    [
+     "01/05/2020",
+     "31/05/2020",
+     3.69
+    ],
+    [
+     "01/10/2020",
+     "31/10/2020",
+     7.5
+    ],
+    [
+     "01/11/2020",
+     "30/11/2020",
+     18.19
+    ],
+    [
+     "01/02/2021",
+     "28/02/2021",
+     6.82
+    ],
+    [
+     "01/10/2021",
+     "31/10/2021",
+     5.48
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "REFLEXO DA PERICULOSIDADE EM HE 100% PAGAS",
+   "pagamento": "MENSAL",
+   "fgts": true,
+   "inss": false,
+   "irpf": true,
+   "assunto_cnj": 1681,
+   "ocorrencias": [
+    [
+     "01/11/2018",
+     "30/11/2018",
+     67.45
+    ],
+    [
+     "01/12/2018",
+     "31/12/2018",
+     62.07
+    ],
+    [
+     "01/04/2019",
+     "30/04/2019",
+     10.68
+    ],
+    [
+     "01/07/2019",
+     "31/07/2019",
+     35.16
+    ],
+    [
+     "01/10/2019",
+     "31/10/2019",
+     35.08
+    ],
+    [
+     "01/11/2019",
+     "30/11/2019",
+     70.32
+    ],
+    [
+     "01/05/2020",
+     "31/05/2020",
+     36.06
+    ],
+    [
+     "01/07/2020",
+     "31/07/2020",
+     34.67
+    ],
+    [
+     "01/10/2020",
+     "31/10/2020",
+     36.06
+    ],
+    [
+     "01/11/2020",
+     "30/11/2020",
+     36.06
+    ],
+    [
+     "01/12/2020",
+     "31/12/2020",
+     36.06
+    ],
+    [
+     "01/04/2021",
+     "30/04/2021",
+     36.06
+    ],
+    [
+     "01/07/2021",
+     "31/07/2021",
+     36.06
+    ],
+    [
+     "01/09/2021",
+     "30/09/2021",
+     75.51
+    ],
+    [
+     "01/10/2021",
+     "31/10/2021",
+     37.8
+    ],
+    [
+     "01/11/2021",
+     "30/11/2021",
+     75.6
+    ]
+   ]
+  }
+ ],
+ "multas": [
+  {
+   "descricao": "INDENIZAÇÃO POR DANO MORAL",
+   "valor": 20230.0,
+   "vencimento": "12/06/2023",
+   "juros_a_partir": "12/06/2023"
+  },
+  {
+   "descricao": "DEDUÇÃO TRCT - SALDO, AVISO, 13º E FÉRIAS DO AVISO",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 5418.1,
+   "vencimento": "04/02/2022",
+   "juros_a_partir": "02/06/2022"
+  },
+  {
+   "descricao": "MULTA ED PROTELATÓRIOS 2% (ART. 1.026, § 2º, CPC)",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 1200.0,
+   "vencimento": "06/11/2024",
+   "juros_a_partir": null
+  }
+ ],
+ "fgts": {
+  "destino": "DEPOSITAR",
+  "multa": null,
+  "incidencia": "SOBRE_O_TOTAL_DEVIDO",
+  "excluir_aviso_da_multa": true,
+  "inicio": "02/06/2017",
+  "fim": "18/07/2022",
+  "depositos": {
+   "02/2022": 161.84,
+   "03/2022": 161.84,
+   "04/2022": 70.62
+  }
+ },
+ "inss": {
+  "devidos": [
+   "02/06/2017",
+   "18/07/2022"
+  ],
+  "pagos": [
+   "02/06/2017",
+   "01/02/2022"
+  ],
+  "empresa": 20,
+  "sat": 3
+ },
+ "correcao": {
+  "indice": "IPCAE",
+  "outro_indice": "SELIC",
+  "outro_a_partir": "02/06/2022",
+  "juros_pre_judicial": true,
+  "juros": "TRD_SIMPLES",
+  "combinacoes_indice": [
+   [
+    "SELIC",
+    "02/06/2022"
+   ],
+   [
+    "IPCA",
+    "30/08/2024"
+   ]
+  ],
+  "combinacoes_juros": [
+   [
+    "SEM_JUROS",
+    "03/06/2022"
+   ],
+   [
+    "TAXA_LEGAL",
+    "30/08/2024"
+   ]
+  ]
+ },
+ "honorarios": [
+  {
+   "credor": "CREDOR",
+   "doc": "00000000000",
+   "aliquota": 10,
+   "base": "BRUTO",
+   "devedor": "RECLAMADO",
+   "tipo": "ADVOCATICIOS",
+   "descricao": "HONORÁRIOS ADVOCATÍCIOS"
+  },
+  {
+   "credor": "CREDOR",
+   "doc": "00000000000",
+   "valor": 1000.0,
+   "devedor": "RECLAMADO",
+   "tipo": "PERICIAIS_MEDICO",
+   "descricao": "HONORÁRIOS PERICIAIS - MÉDICO",
+   "vencimento": "12/06/2023",
+   "indice": "IPCA"
+  },
+  {
+   "credor": "CREDOR",
+   "doc": "00000000000",
+   "valor": 1000.0,
+   "devedor": "RECLAMADO",
+   "tipo": "PERICIAIS_ENGENHEIRO",
+   "descricao": "HONORÁRIOS PERICIAIS - ENGENHEIRO",
+   "vencimento": "12/06/2023",
+   "indice": "IPCA"
+  }
+ ],
+ "custas": {
+  "reclamado_conhecimento": "NAO_SE_APLICA"
+ },
+ "seguro_desemprego": false
+}

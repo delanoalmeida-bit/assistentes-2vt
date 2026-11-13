@@ -1,0 +1,198 @@
+{
+ "_fonte": "Ficha de Liquidação [processo Exemplo 06]; pendências P1 a P9 decididas em 01/11/2026",
+ "contrato": {
+  "admissao": "15/07/2024",
+  "demissao": "19/03/2026",
+  "ajuizamento": "09/04/2026",
+  "maior_remuneracao": 1326.27,
+  "ultima_remuneracao": 1326.27,
+  "prescricao_quinquenal": false,
+  "prescricao_fgts": false,
+  "marco_prescricional": null,
+  "aviso_dias": 33,
+  "projetar_aviso": true,
+  "fim_projetado": "21/04/2026",
+  "carga_horaria": 220,
+  "comentarios": "Valores da planilha homologada em 13/10/2026 (ID 4f442a5), adequada ao acórdão. Seguro-desemprego e guias não apurados: obrigação de fazer não convertida, depende de prévia intimação da reclamada. Custas de R$ 386,71 recolhidas em 17/08/2026."
+ },
+ "ferias": [
+  {
+   "relativa": "2024/2025",
+   "aquisitivo": [
+    "15/07/2024",
+    "14/07/2025"
+   ],
+   "situacao": "INDENIZADAS"
+  }
+ ],
+ "historicos": {
+  "ultima_remuneracao": {
+   "valor": 1326.27,
+   "inicio": "07/2024",
+   "fim": "03/2026",
+   "fgts": false,
+   "inss": false
+  }
+ },
+ "verbas": [
+  {
+   "tipo": "INFORMADA",
+   "nome": "SALDO DE SALÁRIO",
+   "assunto_cnj": 8823,
+   "pagamento": "DESLIGAMENTO",
+   "fgts": true,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "01/03/2026",
+     "19/03/2026",
+     839.94
+    ]
+   ]
+  },
+  {
+   "tipo": "AVISO_PREVIO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false
+  },
+  {
+   "tipo": "DECIMO_TERCEIRO",
+   "periodo": [
+    "01/01/2026",
+    "19/03/2026"
+   ],
+   "avos": 4,
+   "base": "MAIOR_REMUNERACAO",
+   "fgts": true
+  },
+  {
+   "tipo": "FERIAS",
+   "periodos_indenizados": [
+    [
+     "15/07/2024",
+     "14/07/2025",
+     12,
+     1331.56
+    ],
+    [
+     "15/07/2025",
+     "21/04/2026",
+     9
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "DEVOLUÇÃO DE DESCONTOS INDEVIDOS",
+   "pagamento": "MENSAL",
+   "ocorrencias": [
+    [
+     "01/09/2025",
+     "30/09/2025",
+     1099.29
+    ],
+    [
+     "01/10/2025",
+     "31/10/2025",
+     1009.12
+    ],
+    [
+     "01/11/2025",
+     "30/11/2025",
+     633.57
+    ],
+    [
+     "01/12/2025",
+     "31/12/2025",
+     258.02
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "INDENIZAÇÃO SUBSTITUTIVA DO VALE-TRANSPORTE",
+   "assunto_cnj": 2540,
+   "pagamento": "MENSAL",
+   "ocorrencias": [
+    [
+     "01/01/2026",
+     "31/01/2026",
+     166.67
+    ],
+    [
+     "01/02/2026",
+     "28/02/2026",
+     166.67
+    ],
+    [
+     "01/03/2026",
+     "19/03/2026",
+     166.66
+    ]
+   ]
+  }
+ ],
+ "multas": [
+  {
+   "descricao": "INDENIZAÇÃO POR DANO MORAL",
+   "valor": 10000.0,
+   "vencimento": "09/04/2026",
+   "juros_a_partir": "09/04/2026"
+  }
+ ],
+ "fgts": {
+  "destino": "DEPOSITAR",
+  "multa": "QUARENTA_POR_CENTO",
+  "multa_informada": 940.98,
+  "incidencia": "SOBRE_O_TOTAL_DEVIDO",
+  "excluir_aviso_da_multa": false,
+  "inicio": "15/07/2024",
+  "fim": "19/03/2026"
+ },
+ "inss": {
+  "devidos": [
+   "15/07/2024",
+   "19/03/2026"
+  ],
+  "pagos": [
+   "15/07/2024",
+   "19/03/2026"
+  ],
+  "empresa": 20,
+  "sat": 3
+ },
+ "correcao": {
+  "indice": "IPCAE",
+  "outro_indice": "IPCA",
+  "outro_a_partir": "30/08/2024",
+  "juros_pre_judicial": true,
+  "juros": "SEM_JUROS",
+  "combinacoes_juros": [
+   [
+    "TAXA_LEGAL",
+    "30/08/2024"
+   ]
+  ],
+  "combinacoes_indice": [
+   [
+    "IPCA",
+    "30/08/2024"
+   ]
+  ]
+ },
+ "honorarios": [
+  {
+   "credor": "CREDOR",
+   "doc": "64546888104",
+   "aliquota": 11.5,
+   "base": "BRUTO",
+   "devedor": "RECLAMADO"
+  }
+ ],
+ "custas": {
+  "reclamado_conhecimento": "NAO_SE_APLICA"
+ },
+ "seguro_desemprego": false
+}

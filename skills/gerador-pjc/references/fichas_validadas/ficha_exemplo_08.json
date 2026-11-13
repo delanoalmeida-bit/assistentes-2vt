@@ -1,0 +1,299 @@
+{
+ "_fonte": "Cálculo homologado 108996 ([processo Exemplo 08]), reproduzido para validar horas extras e reflexos; saldo de salário informado pelo valor homologado",
+ "data_liquidacao": "31/07/2025",
+ "contrato": {
+  "admissao": "10/11/2022",
+  "demissao": "18/05/2024",
+  "ajuizamento": "10/10/2024",
+  "maior_remuneracao": 2279.64,
+  "ultima_remuneracao": 2279.64,
+  "prescricao_quinquenal": false,
+  "prescricao_fgts": false,
+  "marco_prescricional": null,
+  "aviso_dias": 33,
+  "projetar_aviso": true,
+  "fim_projetado": "20/06/2024",
+  "carga_horaria": 220,
+  "comentarios": null
+ },
+ "ferias": [
+  {
+   "relativa": "2022/2023",
+   "aquisitivo": [
+    "10/11/2022",
+    "09/11/2023"
+   ],
+   "situacao": "INDENIZADAS"
+  }
+ ],
+ "historicos": {
+  "ultima_remuneracao": {
+   "valor": 2279.64,
+   "inicio": "11/2022",
+   "fim": "05/2024",
+   "fgts": false,
+   "inss": false
+  },
+  "BASE GRATIFICAÇÃO 10%": {
+   "fgts": false,
+   "inss": false,
+   "faixas": [
+    [
+     "11/2023",
+     "05/2024",
+     2072.4
+    ]
+   ]
+  }
+ },
+ "verbas": [
+  {
+   "tipo": "AVISO_PREVIO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "periodo": [
+    "18/05/2024",
+    "18/05/2024"
+   ]
+  },
+  {
+   "tipo": "VERBA_HISTORICO",
+   "nome": "DIFERENÇA SALARIAL",
+   "historico": "BASE GRATIFICAÇÃO 10%",
+   "multiplicador": 0.1,
+   "periodo": [
+    "01/11/2023",
+    "18/05/2024"
+   ],
+   "fgts": true,
+   "inss": true,
+   "irpf": false,
+   "assunto_cnj": 2458
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "AVISO",
+   "base": "DIFERENÇA SALARIAL"
+  },
+  {
+   "tipo": "HORAS_EXTRAS",
+   "nome": "HORAS EXTRAS 50%",
+   "quantidade_mensal": 102.72,
+   "multiplicador": 1.5,
+   "divisor": 220,
+   "periodo": [
+    "10/11/2022",
+    "18/05/2024"
+   ],
+   "fgts": true,
+   "inss": true,
+   "irpf": false,
+   "assunto_cnj": 2086
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "AVISO",
+   "base": "HORAS EXTRAS 50%"
+  },
+  {
+   "tipo": "FERIAS",
+   "periodos_indenizados": [
+    [
+     "10/11/2022",
+     "09/11/2023",
+     12
+    ],
+    [
+     "10/11/2023",
+     "20/06/2024",
+     6
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "FERIAS",
+   "base": "DIFERENÇA SALARIAL",
+   "periodos": [
+    [
+     "10/11/2022",
+     "09/11/2023",
+     12
+    ],
+    [
+     "10/11/2023",
+     "20/06/2024",
+     7
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "FERIAS",
+   "base": "HORAS EXTRAS 50%",
+   "periodos": [
+    [
+     "10/11/2022",
+     "09/11/2023",
+     12
+    ],
+    [
+     "10/11/2023",
+     "20/06/2024",
+     7
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "MULTA_467",
+   "base": "AVISO PRÉVIO"
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "MULTA_467",
+   "base": "FÉRIAS + 1/3"
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "SALDO DE SALÁRIO",
+   "assunto_cnj": 8823,
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": true,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/05/2024",
+     "18/05/2024",
+     820.67
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "MULTA_467",
+   "base": "SALDO DE SALÁRIO",
+   "integralizar": "NAO"
+  },
+  {
+   "tipo": "DECIMO_TERCEIRO",
+   "nome": "13º SALÁRIO PROP 5/12",
+   "periodo": [
+    "18/05/2024",
+    "18/05/2024"
+   ],
+   "avos": 5,
+   "base": "MAIOR_REMUNERACAO",
+   "fgts": false,
+   "irpf": false
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "MULTA_467",
+   "base": "13º SALÁRIO PROP 5/12"
+  },
+  {
+   "tipo": "MULTA_477",
+   "periodo": [
+    "18/05/2024",
+    "18/05/2024"
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "RSR",
+   "base": "HORAS EXTRAS 50%"
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "DECIMO",
+   "base": "DIFERENÇA SALARIAL",
+   "ocorrencias": [
+    [
+     "20/12/2023",
+     12
+    ],
+    [
+     "18/05/2024",
+     6
+    ]
+   ]
+  },
+  {
+   "tipo": "REFLEXO",
+   "reflexo": "DECIMO",
+   "base": "HORAS EXTRAS 50%",
+   "ocorrencias": [
+    [
+     "20/12/2022",
+     2
+    ],
+    [
+     "20/12/2023",
+     12
+    ],
+    [
+     "18/05/2024",
+     6
+    ]
+   ]
+  }
+ ],
+ "multas": [],
+ "fgts": {
+  "destino": "PAGAR",
+  "multa": "QUARENTA_POR_CENTO",
+  "incidencia": "SOBRE_O_TOTAL_DEVIDO",
+  "excluir_aviso_da_multa": true,
+  "inicio": "10/11/2022",
+  "fim": "18/05/2024"
+ },
+ "inss": {
+  "devidos": [
+   "10/11/2022",
+   "18/05/2024"
+  ],
+  "pagos": [
+   "10/11/2022",
+   "18/05/2024"
+  ],
+  "empresa": 20,
+  "sat": 3
+ },
+ "correcao": {
+  "indice": "IPCAE",
+  "outro_indice": "IPCA",
+  "outro_a_partir": "30/08/2024",
+  "juros_pre_judicial": false,
+  "juros": "SEM_JUROS",
+  "combinacoes_juros": [
+   [
+    "TAXA_LEGAL",
+    "11/10/2024"
+   ]
+  ],
+  "combinacoes_indice": [
+   [
+    "IPCA",
+    "30/08/2024"
+   ]
+  ]
+ },
+ "honorarios": [
+  {
+   "credor": "CREDOR",
+   "doc": "53940580163",
+   "aliquota": 15,
+   "base": "BRUTO",
+   "devedor": "RECLAMADO",
+   "tipo": "ADVOCATICIOS",
+   "descricao": "HONORÁRIOS ADVOCATÍCIOS"
+  }
+ ],
+ "custas": {
+  "reclamado_conhecimento": "CALCULADA_2_POR_CENTO"
+ },
+ "seguro_desemprego": false
+}

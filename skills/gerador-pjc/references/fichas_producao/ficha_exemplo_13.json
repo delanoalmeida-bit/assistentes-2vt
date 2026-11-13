@@ -1,0 +1,277 @@
+{
+ "_fonte": "Ficha de Liquidação [processo Exemplo 13] (transferência do SAPT1), decisões do usuário em 09/11/2026",
+ "data_liquidacao": "09/11/2026",
+ "contrato": {
+  "admissao": "01/04/2002",
+  "demissao": "10/11/2004",
+  "ajuizamento": "09/12/2004",
+  "maior_remuneracao": 272.0,
+  "ultima_remuneracao": 272.0,
+  "prescricao_quinquenal": false,
+  "prescricao_fgts": false,
+  "marco_prescricional": null,
+  "aviso_dias": 30,
+  "projetar_aviso": false,
+  "carga_horaria": 220,
+  "comentarios": "Sentença líquida de 03/02/2005 (ID 122cf89); valores em 11/2004 como no cálculo SAPT1 homologado (ID e35e223). Correção pela ADC 58 desde a origem. Levantamentos abatidos como deduções na data e no valor levantados."
+ },
+ "historicos": {},
+ "ferias": [],
+ "verbas": [
+  {
+   "tipo": "INFORMADA",
+   "nome": "AVISO PRÉVIO",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     272.0
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "FÉRIAS SIMPLES + 1/3 2003",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     362.66
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "FÉRIAS SIMPLES 2004",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     362.66
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "FÉRIAS PROPORCIONAIS + 1/3",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     211.55
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "SALÁRIO RETIDO",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     272.0
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "13º SALÁRIO 2003",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     272.0
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "13º SALÁRIO 2004",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": true,
+   "irpf": true,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     249.33
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "MULTA DO ARTIGO 477 DA CLT",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     272.0
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "FGTS + 40%",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     944.38
+    ]
+   ]
+  },
+  {
+   "tipo": "INFORMADA",
+   "nome": "INDENIZAÇÃO DO SEGURO-DESEMPREGO",
+   "pagamento": "DESLIGAMENTO",
+   "fgts": false,
+   "inss": false,
+   "irpf": false,
+   "ocorrencias": [
+    [
+     "01/11/2004",
+     "10/11/2004",
+     1300.0
+    ]
+   ]
+  }
+ ],
+ "multas": [
+  {
+   "descricao": "MULTA - ANOTAÇÃO DA CTPS (DESP. 12/01/2006)",
+   "valor": 500.0,
+   "vencimento": "12/01/2006",
+   "juros_a_partir": "12/01/2006"
+  },
+  {
+   "descricao": "LEVANTAMENTO 23/10/2009 (CEF)",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 425.41,
+   "vencimento": "23/10/2009",
+   "juros_a_partir": "23/10/2009"
+  },
+  {
+   "descricao": "LEVANTAMENTO 25/11/2021 (BB)",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 616.87,
+   "vencimento": "25/11/2021",
+   "juros_a_partir": "25/11/2021"
+  },
+  {
+   "descricao": "LEVANTAMENTO 21/02/2022 (CEF)",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 1372.27,
+   "vencimento": "21/02/2022",
+   "juros_a_partir": "21/02/2022"
+  },
+  {
+   "descricao": "LEVANTAMENTO 10/12/2025 (BB E CEF)",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 3287.61,
+   "vencimento": "10/12/2025",
+   "juros_a_partir": "10/12/2025"
+  },
+  {
+   "descricao": "LEVANTAMENTO 12/03/2026 (CEF E BB)",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 1127.91,
+   "vencimento": "12/03/2026",
+   "juros_a_partir": "12/03/2026"
+  },
+  {
+   "descricao": "LEVANTAMENTO 26/08/2026 (BB)",
+   "credor_devedor": "RECLAMADO_RECLAMANTE",
+   "valor": 1556.84,
+   "vencimento": "26/08/2026",
+   "juros_a_partir": "26/08/2026"
+  }
+ ],
+ "fgts": {
+  "destino": "PAGAR",
+  "multa": null,
+  "incidencia": "SOBRE_O_TOTAL_DEVIDO",
+  "excluir_aviso_da_multa": false,
+  "inicio": "01/04/2002",
+  "fim": "10/11/2004"
+ },
+ "inss": {
+  "devidos": [
+   "01/11/2004",
+   "10/11/2004"
+  ],
+  "pagos": [
+   "01/11/2004",
+   "10/11/2004"
+  ],
+  "empresa": 20,
+  "sat": 2,
+  "terceiros": 5.8
+ },
+ "correcao": {
+  "indice": "IPCAE",
+  "outro_indice": "SELIC",
+  "outro_a_partir": "09/12/2004",
+  "juros_pre_judicial": true,
+  "juros": "SEM_JUROS",
+  "combinacoes_indice": [
+   [
+    "SELIC",
+    "09/12/2004"
+   ],
+   [
+    "IPCA",
+    "30/08/2024"
+   ]
+  ],
+  "combinacoes_juros": [
+   [
+    "SEM_JUROS",
+    "10/12/2004"
+   ],
+   [
+    "TAXA_LEGAL",
+    "30/08/2024"
+   ]
+  ]
+ },
+ "honorarios": [],
+ "custas": {
+  "reclamado_conhecimento": "INFORMADA",
+  "valor": 60.0,
+  "vencimento": "03/02/2005"
+ },
+ "seguro_desemprego": false
+}
