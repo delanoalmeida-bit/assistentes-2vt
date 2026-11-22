@@ -8,7 +8,7 @@ Skills e Projetos do Claude usados pela Secretaria da 2ª VT de São Luís.
 
 | Pasta | Projeto no Claude | Arquivos de conhecimento |
 |---|---|---|
-| `execucao/` | Despachos e Decisões em Execução Trabalhista | `diretrizes execucao.MD` |
+| `execucao/` | Despachos e Decisões em Execução Trabalhista | `diretrizes-execucao.md` |
 | `conhecimento/` | Despachos e Decisões na fase de Conhecimento | `diretrizes conhecimento.MD` |
 | `assistente-calculista/` | Assistente Calculista | `MODELO CALCULO EXTERNO.PJC`, `MODELO GERADOR PJC.PJC` |
 
